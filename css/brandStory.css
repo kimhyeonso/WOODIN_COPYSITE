@@ -125,7 +125,7 @@
     flex-direction: column;
     position: relative;
     width: 100%;
-    background-image: url('/image/brandStory/imgi_19_m11_sec3_bg.png');
+    background-image: url('../image/brandStory/imgi_19_m11_sec3_bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,7 +146,7 @@
     flex-direction: column;
     width: 600px;
     height: 690px;
-    background-image: url('/image/brandStory/imgi_4_m11_sec3_img1.jpg');
+    background-image: url('../image/brandStory/imgi_4_m11_sec3_img1.jpg');
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@
     flex-direction:column;
     width: 600px;
     height: 690px;
-    background-image: url('/image/brandStory/imgi_5_m11_sec3_img2.jpg');
+    background-image: url('../image/brandStory/imgi_5_m11_sec3_img2.jpg');
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@
     flex-direction:column;
     width: 600px;
     height: 690px;
-    background-image: url('/image/brandStory/imgi_7_m11_sec3_img4.jpg');
+    background-image: url('../image/brandStory/imgi_7_m11_sec3_img4.jpg');
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +218,7 @@
     flex-direction: column;
     width: 600px;
     height: 690px;
-    background-image: url('/image/brandStory/imgi_6_m11_sec3_img3.jpg');
+    background-image: url('../image/brandStory/imgi_6_m11_sec3_img3.jpg');
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;

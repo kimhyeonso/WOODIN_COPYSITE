@@ -158,7 +158,7 @@ section{
 
 .showroomGuideBox .guideImg {
     grid-column: 1 / 3;
-    background-image: url(/image/Showroom/imgi_59_file1_1648440443wuof9hd7y5.jpg);
+    background-image: url(../image/Showroom/imgi_59_file1_1648440443wuof9hd7y5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -328,7 +328,7 @@ section{
 .addressInfo .naver .arrow{
     width: 30px;
     height: 19px;
-    background-image: url(/image/Showroom/btn_acc.png);
+    background-image: url(../image/Showroom/btn_acc.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
