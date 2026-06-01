@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden ;
+}
+
 /* --------메인 섹션구현-------- */
 .centents{
     display: block;
