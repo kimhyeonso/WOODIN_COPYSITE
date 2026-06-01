@@ -59,3 +59,26 @@ const observer = new IntersectionObserver(function(entries){
 items.forEach(function(box){
     observer.observe(box)
 })
+
+//top 버튼 구현
+let topBtn = document.querySelector(".top")
+
+window.onscroll = function(){
+    scrollFunction()
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+}
+
+// 버튼 클릭 시 페이지 맨 위로 부드럽게 이동
+topBtn.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});

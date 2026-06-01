@@ -4,6 +4,27 @@ body {
     font-weight: normal;
     font-style: normal;
     background-color: #fafafa;
+    overflow-x: hidden ;
+}
+
+.top {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.top:hover{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
 }
 
 /* --------네비 구현-------- */
